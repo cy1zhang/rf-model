@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# data, caches, model weights
+data/
+cache/
+*.npy
+*.npz
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.tif
+*.mat
+
+# training runs and Slurm job logs
+runs/
+outputs/
+*.out
+*.err
+
+# MATLAB
+*.asv
+
+# local planning docs
+docs/
+
+# macOS
+.DS_Store
